@@ -7,6 +7,12 @@
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "all non-major maven dependencies",
       "groupSlug": "all-maven-minor-patch"
+    },
+    {
+      "matchDatasources": ["maven"],
+      "matchDepTypes": ["test"],
+      "groupName": "all maven test dependencies",
+      "groupSlug": "all-maven-test-deps"
     }
   ]
 }
