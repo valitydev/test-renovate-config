@@ -1,3 +1,12 @@
 {
-  "extends": ["config:base"]
+  "extends": ["config:base"],
+    "packageRules": [
+    {
+      "datasource": "maven",
+      "excludePackagePrefixes": ["dev.vality"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "all non-major maven dependencies",
+      "groupSlug": "all-maven-minor-patch"
+    }
+  ]
 }
