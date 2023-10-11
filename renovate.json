@@ -6,14 +6,16 @@
       "excludePackagePrefixes": ["dev.vality"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "all non-major maven dependencies",
-      "groupSlug": "all-maven-minor-patch"
+      "groupSlug": "all-maven-minor-patch",
+      "automerge": true
     },
     {
       "matchDatasources": ["maven"],
       "matchDepTypes": ["test"],
       "matchUpdateTypes": ["major", "minor", "patch"],
       "groupName": "all maven test dependencies",
-      "groupSlug": "all-maven-test-deps"
+      "groupSlug": "all-maven-test-deps",
+      "automerge": true
     }
   ]
 }
