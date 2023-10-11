@@ -1,6 +1,6 @@
 {
   "extends": ["config:base"],
-  "labels": "dependencies",
+  "labels": ["dependencies"],
   "packageRules": [
     {
       "matchDatasources": ["maven"],
@@ -18,7 +18,7 @@
       "matchUpdateTypes": ["major", "minor", "patch"],
       "groupName": "all maven test dependencies",
       "groupSlug": "all-maven-test-deps",
-      "labels": "can-merge",
+      "labels": ["can-merge"],
       "automerge": true
     }
   ]
