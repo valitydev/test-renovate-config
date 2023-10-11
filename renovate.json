@@ -1,12 +1,14 @@
 {
   "extends": ["config:base"],
-    "packageRules": [
+  "labels": "dependencies",
+  "packageRules": [
     {
       "matchDatasources": ["maven"],
       "excludePackagePrefixes": ["dev.vality"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "all non-major maven dependencies",
       "groupSlug": "all-maven-minor-patch",
+      "labels": "can-merge",
       "automerge": true,
       "bumpVersion": "patch"
     },
@@ -16,6 +18,7 @@
       "matchUpdateTypes": ["major", "minor", "patch"],
       "groupName": "all maven test dependencies",
       "groupSlug": "all-maven-test-deps",
+      "labels": "can-merge",
       "automerge": true
     }
   ]
