@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>vortigon</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
 
     <name>vortigon</name>
@@ -37,7 +37,7 @@
         </mg-event-sink-listener-spring-boot-starter.version>
         <db-common-lib.version>0.0.1</db-common-lib.version>
         <vortigon-proto.version>1.16-d6ebfa4</vortigon-proto.version>
-        <testcontainers.version>1.16.3</testcontainers.version>
+        <testcontainers.version>1.19.1</testcontainers.version>
         <schedlock.version>4.25.0</schedlock.version>
     </properties>
 
