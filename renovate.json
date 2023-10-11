@@ -11,6 +11,7 @@
     {
       "matchDatasources": ["maven"],
       "matchDepTypes": ["test"],
+      "matchUpdateTypes": ["major", "minor", "patch"],
       "groupName": "all maven test dependencies",
       "groupSlug": "all-maven-test-deps"
     }
