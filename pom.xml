@@ -36,7 +36,7 @@
         <mg-event-sink-listener-spring-boot-starter.version>0.0.1
         </mg-event-sink-listener-spring-boot-starter.version>
         <db-common-lib.version>0.0.1</db-common-lib.version>
-        <vortigon-proto.version>1.16-d6ebfa4</vortigon-proto.version>
+        <vortigon-proto.version>1.20-1ed031a</vortigon-proto.version>
         <testcontainers.version>1.16.3</testcontainers.version>
         <schedlock.version>4.25.0</schedlock.version>
     </properties>
